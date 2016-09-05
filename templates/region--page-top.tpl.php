@@ -27,18 +27,18 @@
 <!-- social icons -->
 								<ul class="socialNetwork">
 									<li>
-										<a href="https://www.facebook.com/" class="tips" title="" target="_blank" data-original-title="Follow Testing Services on Facebook">
-											<img src="https://studentaffairs.uga.edu/images/icons/facebook_icon_pre_header.png" alt="Go to Testing Services Facebook page">
+										<a href="https://www.facebook.com/" class="tips" title="" target="_blank" data-original-title="Follow Disability Resource Center on Facebook">
+											<img src="https://studentaffairs.uga.edu/images/icons/facebook_icon_pre_header.png" alt="Go to Disability Resource Center Facebook page">
 										</a>
 									</li>
 									<li>
-										<a href="https://twitter.com/" class="tips" title="" target="_blank" data-original-title="Follow Testing Services on Twitter">
-											<img src="https://studentaffairs.uga.edu/images/icons/twitter_icon_pre-header.png" alt="Go to Testing Services Twitter page">
+										<a href="https://twitter.com/" class="tips" title="" target="_blank" data-original-title="Follow Disability Resource Center on Twitter">
+											<img src="https://studentaffairs.uga.edu/images/icons/twitter_icon_pre-header.png" alt="Go to Disability Resource Center Twitter page">
 										</a>
 									</li>
 									<li>
-										<a href="http://instagram.com/" class="tips" title="" target="_blank" data-original-title="Follow Testing Services on instagram">
-											<img src="https://studentaffairs.uga.edu/images/icons/instagram_icon_pre_header.png" alt="Go to Testing Services Instagram page">
+										<a href="http://instagram.com/" class="tips" title="" target="_blank" data-original-title="Follow Disability Resource Center on instagram">
+											<img src="https://studentaffairs.uga.edu/images/icons/instagram_icon_pre_header.png" alt="Go to Disability Resource Center Instagram page">
 										</a>
 									</li>
 								</ul>
@@ -53,7 +53,9 @@
 					<nav class="navbar navbar-default scrollMenu" role="navigation">
                         <div id="searchbar" class="col-md-3" role="search" aria-labelledby="searchbar">
 <!--main search bar -->
-<?php print $search_box; ?>
+<?php if(!empty($search_box)) : ?>
+	<?php print $search_box; ?>
+<?php endif; ?>
 
 						</div>
 						<div class="navbar-header">
@@ -67,7 +69,7 @@
 						</div>
 <!-- Logo -->
 <div><a class="navbar-brand" href="/">
-										<img src="<?php print $logo_url; ?>" alt="UGA Testing Services" class="img img-responsive" id="main_logo"/>
+										<img src="<?php print $logo_url; ?>" alt="UGA Disability Resource Center" class="img img-responsive" id="main_logo"/>
 								</a>
 </div>
 						<div class="collapse navbar-collapse" id="mainMenu">

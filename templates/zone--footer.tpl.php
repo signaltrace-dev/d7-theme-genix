@@ -18,8 +18,6 @@
                               <li><a href="http://enhanceuga.com/" target="_blank">Give</a></li>
                               <li><a href="/staff-directory">Staff Directory</a></li>
                               <li><a href="https://testing.local/contact/Website-Comments">Website Comments</a></li>
-                              <li><a href="/about/directions-parking">Directions & Parking</a></li>
-
                               <li><a href="https://studentcomplaints.uga.edu/" target="_blank">Submit a Complaint</a></li>
                           </ul>
                       </div>
@@ -27,14 +25,13 @@
                   <div class="col-md-3 col-sm-6">
                       <div class="footerWidget">
                           <h3>Keep in touch</h3>
-                          <p class="phone">706-542-3183</p>
-                          <h4>University Testing Services</h4>
+                          <p class="phone">706-542-8719</p>
+                          <h4>Disability Resource Center</h4>
                           <h4>Division of Student Affairs</h4>
                           <address>
                               <p>
-                                  Clark Howell Hall<br>
+                                  114 Clark Howell Hall<br>
                                   Athens, GA 30602-3338<br>
-                                 <i class="icon-mail" style="color:white;"></i>&nbsp;<a href="mailto:uts@uga.edu">uts@uga.edu</a>
                               </p>
                           </address>
                       </div>
