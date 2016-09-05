@@ -1,0 +1,326 @@
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background:#b40000;}
+
+#preHeader{background-color:#e36a57;}
+ul.quickMenu li a, .contactPhone {color:#F7F7F7;}
+ul.quickMenu li a:hover {color:#555;}
+#preHeader .socialNetwork .iconRounded{ background:none; border:none}
+#preHeader .socialNetwork a:hover .iconRounded  {color:#555;}
+
+#mainHeader{
+    background-color:#333 ;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+#mainHeader .navbar-inner {
+	background: #444;
+	filter:none !important;
+}
+#mainMenu .navbar-nav li{
+	border-bottom:1px solid #555;
+}
+#mainMenu .navbar-nav li:last-child, #mainMenu .navbar-nav li:last-child a{
+	border-bottom:none !important;
+}
+
+.navbar-nav > li > a > i, .navbar-default .navbar-nav > li > a {
+	color:#ccc;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus, #resMainMenu li.active>a {
+	background:none;
+	color:#fff;
+}
+.navbar-nav > li.sep:before  {color:#eee;}
+.navbar-default .navbar-nav > li > a.active { color:#fff;}
+.navbar-nav ul li a, .navbar-nav li.hover>a {color:#fff;}
+
+
+/*** header options ***/
+
+
+/* header 1 */
+.header1 #preHeader {background-color: #333;}
+.header1 ul.quickMenu li a:hover,.header1 #preHeader .socialNetwork .iconRounded:hover{ color: #cc0000;}
+.header1 ul.quickMenu li, .header1 .contactPhone {border-right:1px solid #555;}
+.header1 #mainHeader{background:#fff;}
+.header1 #mainMenu .navbar-nav li{ border-color:#eee; }
+.header1 .navbar-default .navbar-nav > li > a {color:#555;}
+.header1 .navbar-default .navbar-nav > li > a.active, .header1 .navbar-default .navbar-nav > li.Nactive > a, .header1 .navbar-default .navbar-nav>li>a:hover, .header1 .navbar-default .navbar-nav>li.hover>a, .header1 .navbar-default .navbar-nav li.Nactive>a {color:#cc0000;}
+.header1 .navbar-nav ul {}
+.header1 .navbar-nav ul li a {color:#555;}
+
+
+
+/** header 2 **/
+.header2 .navbar-nav ul {border-top-color: #cc0000; }
+.header2 .navbar-nav ul li a {border-color:#eee}
+.header2 .navbar-nav li{border-bottom-color:#eee;}
+.header2 .navbar-nav ul li a:hover, .header2 .navbar-nav ul li.hover> a, .header2 li.Nactive> a {color:#fff;}
+
+
+/*** header 3 ***/
+.header3 #preHeader {background-color: #fff; border-bottom: 1px solid #eee}
+.header3 #mainMenu .navbar-nav li{border-bottom-color:#eee;}
+.header3 .navbar-nav ul.subMenu a{ color:#999; }
+.header3 ul.quickMenu li a, .header3 .contactPhone, .header3 #preHeader .socialNetwork .iconRounded {color:#999;}
+.header3 ul.quickMenu li a:hover,.header3 #preHeader .socialNetwork .iconRounded:hover{ color: #cc0000;}
+.header3 #mainHeader{background:#fff;}
+.header3 .navbar-default .navbar-nav > li > a {color:#999;}
+.header3 .navbar-default .navbar-nav > li > a.active, .header3 .navbar-default .navbar-nav>li>a:hover, .header3 .navbar-default .navbar-nav>li.hover>a, .header3 .navbar-default .navbar-nav li.Nactive>a, .header3 #resMainMenu li.active>a {color:#cc0000;}
+.header3 .navbar-nav>ul { top:88px;}
+
+
+
+/**** header 4 ****/
+.header4 #mainHeader{background:#fff;}
+.header4 #mainMenu .navbar-nav li{border-bottom-color:#eee;}
+.header4 .navbar-default .navbar-nav > li > a { color:#999; border-top:3px solid #fff; }
+.header4 .navbar-default .navbar-nav > li > a.active, .header4 .navbar-default .navbar-nav>li>a:hover, .header4 .navbar-default .navbar-nav>li.hover>a, .header4 .navbar-default .navbar-nav li.Nactive>a, .header4 #resMainMenu li.active>a { color:#cc0000; }
+.header4 .navbar-nav > li#lastMenu > a {padding-right:15px;}
+.header4 .navbar-nav ul li a { color:#999; }
+
+
+/***** header 5 *****/
+
+.header5 #mainHeader{ background:#fff; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25); }
+.header5 #mainMenu .navbar-nav li{border-bottom-color:#eee;}
+.header5 .navbar-default .navbar-nav > li > a {color:#555;}
+.header5 .navbar-default .navbar-nav > li > a.active, .header5 .navbar-default .navbar-nav>li>a:hover, .header5 .navbar-default .navbar-nav>li.hover>a, .header5 .navbar-default .navbar-nav>li.Nactive>a { color:#cc0000; }
+.header5 .navbar-nav ul li a { color:#555; border-bottom: 1px solid #eee; }
+
+/*** megaMenu ***/
+#mainMenu .navbar-nav ul li.megaMenuTitle {
+	color:#fff;
+}
+
+.header1 #mainMenu .navbar-nav ul li.megaMenuTitle { color:#555; }
+.header2 #mainMenu .navbar-nav ul li.megaMenuTitle { color:#555; }
+.header5 #mainMenu .navbar-nav ul li.megaMenuTitle { color:#555; }
+
+/*** MEDIA QUERIES ***/
+
+@media(max-width:767px){}
+
+@media(min-width:768px){
+
+	/* normal header (no class on body) */
+	.navbar-nav ul {background:#4b4a4a; border-top: 4px solid #fff;}
+	.navbar-nav ul li a:hover, .navbar-nav ul li.hover>a {background:#b40000;}
+	.navbar-nav ul {background:rgba(50,50,50,0.75);}
+	#mainMenu .navbar-nav li{border-bottom:none;}
+
+
+	/* Header 1 */
+	.header1 .navbar-default .navbar-nav > li > a.active, .header1 .navbar-default .navbar-nav>li>a:hover, .header1 .navbar-default .navbar-nav>li.hover>a, .header1 #resMainMenu li.active>a{background:#b40000; color:#fff;}
+	.header1 .navbar-nav ul {background:#f7f7f7; top:88px;}
+	.header1 .navbar-nav ul li a:hover, .header1 .navbar-nav ul li.hover> a, .header1 .navbar-nav ul li.Nactive> a {background:#eee;}
+	/** header 2 **/
+	.header2 .navbar-nav ul {border-top-color: #cc0000; background:#fff; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);}
+	.header2 .navbar-nav ul li a {color:#555; border-bottom: 1px solid #eee}
+
+	/*** header 3 ***/
+	.header3 .navbar-default .navbar-nav > li > a {border-left:1px solid #eee;}
+	.header3 .navbar-nav > li > a {padding:22px 22px;}
+	.header3 .navbar-nav ul.subMenu a{ color:#fff; }
+
+	/**** header 4 ****/
+	.header4 .navbar-default .navbar-nav > li > a.active, .header4 .navbar-default .navbar-nav>li>a:hover, .header4 .navbar-default .navbar-nav>li.hover>a, .header4 #resMainMenu li.active>a { border-top-color:#cc0000; background:#f7f7f7; }
+	.header4 .navbar-nav ul {background:#555;}
+	.header4 .navbar-nav ul li a {border-top: 1px solid #444;}
+	.header4 .navbar-nav ul li a:hover, .header4 .navbar-nav ul li.hover a {color:#fff;}
+
+	/***** header 5 *****/
+	.header5 .navbar-nav ul { background:#fff; border:1px solid #eee; box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25); }
+	.header5 .navbar-default .navbar-nav > li > a.active, .header5 .navbar-default .navbar-nav>li>a:hover, .header5 .navbar-default .navbar-nav>li.hover>a, .header5 #resMainMenu li.active>a { background-color:#cc0000; color:#fff; }
+	.header5 .navbar-nav ul li a:hover, .header5 .navbar-nav ul li.hover > a {color:#fff;}
+	.header5 .navbar-nav ul li a{ border:none; }
+
+	/*** megaMenu ***/
+	#mainMenu .navbar-nav ul li.megaMenuTitle {
+		border-bottom: 1px solid #555;
+	}
+	.navbar-nav .nekoMegaMenu{
+		background: rgba(50, 50, 50, 0.95);
+		border-top:4px solid white;
+	}
+
+	/*** header1 ***/
+	.header1 #mainMenu .navbar-nav ul li.megaMenuTitle { border-bottom: 1px solid #eee;	}
+	.header1 .navbar-nav .nekoMegaMenu{ background: #f7f7f7; }
+
+	/*** header2 ***/
+	.header2 #mainMenu .navbar-nav ul li.megaMenuTitle { border-bottom: 1px solid #eee;	}
+	.header2 .navbar-nav .nekoMegaMenu{
+		background: #fff;
+		box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+	}
+	.header2 .navbar-nav .nekoMegaMenu ul{ box-shadow: none; }
+
+	/*** header 4 ***/
+	.header4 .navbar-nav .nekoMegaMenu{ background: #555; border-top:none;}
+
+	/*** header5 ***/
+	.header5 #mainMenu .navbar-nav ul li.megaMenuTitle { border-bottom: 1px solid #eee;	}
+	.header5 .navbar-nav .nekoMegaMenu{
+		background: #fff;
+		box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+		border: 1px solid #EEE;
+	}
+	.header5 .navbar-nav .nekoMegaMenu ul{ box-shadow: none; border:none;}
+}
+
+@media(min-width:992px){}
+
+@media(min-width:1200px){}
+
+
+/* FOOTER
+================================================== */
+
+footer {
+	color:#666;
+	background:#222;
+	border-top:1px solid #555s;
+}
+footer h1,footer h2,footer h3,footer h4{color:#fff; font-weight:300;}
+#footerRights {
+	background-color:#e36a57;
+	color:#eee;
+}
+
+/* END FOOTER
+================================================== */
+
+
+
+/* PAGES
+================================================== */
+.page-header{background-color:#cc0000;border-bottom: 2px solid rgba(1,1,1,0.075);}
+.page-header h1, .page-header p {color: #FFF;}
+.page-header.bigHeader, .page-header.bigHeader h1, .page-header.bigHeader h2 {background-color:#e36a57; color:#fff;}
+
+ul#navTrail li a {color:#E36A57;}
+ul#navTrail li a:hover {color:#fff;}
+ul#navTrail li#navTrailLast {color:#fff;}
+
+/** sidebar **/
+nav#subnav{background:#eee; border-bottom: 4px solid #ddd}
+nav#subnav ul li a.active, nav#subnav ul li a:hover{background:#cc0000 ; color:#fff;}
+
+/* END PAGES
+================================================== */
+
+
+
+
+
+
+
+
+
+nav#filter a {
+	background-color: #EEE;
+	color:#555;
+}
+nav#filter a:hover, nav#filter a.current {
+	background-color: #b40000;
+	color:#fff;
+}
+li.filterTitle {
+	color:#4F6266;
+}
+
+
+#preloader {
+	background-color:#cc0000; /* change if the mask should have another color then white */
+}
+
+
+
+/* NEKO CSS FRAMEWORK
+================================================== */
+/* images */
+.imgBorder {border:1px solid #ededed; background:#fff; }
+
+/*** Feature box **/
+
+.boxFeature i{color:#b40000;}
+
+/*** Focus box **/
+
+.boxFocus{border:1px solid #ddd;}
+
+/*** Icon box **/
+
+.boxIcon a:hover {background:#bf4430; color:#fff;}
+.boxIcon a:hover h2{color:#fff;}
+
+.boxIconV2 a:hover h2 {color:#bf4430;}
+.boxIconV2 a p {color:#555;}
+
+/*** testimonial ***/
+
+.boxTestimonial blockquote{
+	background:#f7f7f7;
+}
+
+.boxTestimonial blockquote:after {
+	border-color: rgba(247, 247, 247, 0);
+	border-top-color: #F7f7f7;
+}
+.footerWidget .boxTestimonial blockquote:after {
+	border-color: rgba(51, 51, 51, 0);
+	border-top-color: #333;
+}
+
+.footerWidget .boxTestimonial blockquote {
+	background:#333;
+	color:#eee;
+}
+
+
+/*** call to action ***/
+.ctaBox {border:2px solid rgba(0,0,0,0.05);}
+.ctaBoxFullwidth{border:none}
+
+.ctaBox blockquote {
+	color:#fff;
+}
+/*color0*/
+.color0{
+	background-color:#fff;
+}
+
+/*color1*/
+.color1, .slice.color1, .bulle.color1, .ctaBox.color1{
+	background-color:#F7F7F7;
+	color:#444;
+}
+
+.color1 h1, .color1 h2, .color1 h3, .color1 h4, .color1 blockquote, .color1 a{
+	color:#444;
+}
+.color1 a.btn{color:#111;}
+.color1 a.btn:hover{color:#fff;}
+
+/*color2*/
+.color2, .slice.color2, .bulle.color2, .ctaBox.color2{
+	background-color:#b40000;
+	color:#fff;
+}
+
+.color2 h1, .color2 h2, .color2 h3, .color2 h4, .color2 blockquote, .color2 a {
+	color:#fff;
+}
+.color2 a.btn{color:#111;}
+.color2 a.btn:hover{color:#fff;}
+.color2 .ctaBox {border-color:rgba(255,255,255,0.5);}
+.color2 h1:before,.color2 h1:after{color:#bf4430;}
+/*** icons ***/
+.iconRounded {background-color:#b40000;color:#fff;}
+.iconRounded:hover, .color1 .iconRounded:hover,.iconLinks a:hover i{background-color:#e36a57;color:#fff;}
+.color1 .iconRounded {color:#fff ;}
+.color2 .iconRounded {background-color:#FFF;color:#b40000;}
+
+/* END NEKO CSS FRAMEWORK
+================================================== */

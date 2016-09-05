@@ -1,0 +1,17 @@
+.zone-branding{
+  display: none;
+}
+
+.nav>li,
+.list-inline>li{
+  margin: 0;
+}
+
+#searchbar {
+    margin: 20px 0 0 0;
+    float: right;
+}
+
+header img{
+  vertical-align: middle;
+}
