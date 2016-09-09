@@ -41,7 +41,6 @@ drupal_add_css(drupal_get_path('theme', 'genix') . '/css/custom.css', array('gro
 
    drupal_add_js(drupal_get_path('theme', 'genix') . '/bootstrap/js/bootstrap.min.js', array('group' => CSS_DEFAULT, 'every_page' => TRUE, 'scope' => 'footer'));
    drupal_add_js(drupal_get_path('theme', 'genix') . '/js/js-plugin/respond/respond.min.js', array('group' => CSS_DEFAULT, 'every_page' => TRUE, 'scope' => 'footer'));
-   drupal_add_js(drupal_get_path('theme', 'genix') . '/js/js-plugin/jquery-ui/jquery-ui-1.8.23.custom.min.js', array('group' => CSS_DEFAULT, 'every_page' => TRUE, 'scope' => 'footer'));
    drupal_add_js(drupal_get_path('theme', 'genix') . '/js/js-plugin/easing/jquery.easing.1.3.js', array('group' => CSS_DEFAULT, 'every_page' => TRUE, 'scope' => 'footer'));
    drupal_add_js(drupal_get_path('theme', 'genix') . '/js/js-plugin/owl.carousel/owl-carousel/owl.carousel.min.js', array('group' => CSS_DEFAULT, 'every_page' => TRUE, 'scope' => 'footer'));
    drupal_add_js(drupal_get_path('theme', 'genix') . '/js/js-plugin/magnific-popup/jquery.magnific-popup.min.js', array('group' => CSS_DEFAULT, 'every_page' => TRUE, 'scope' => 'footer'));
@@ -249,4 +248,26 @@ function genix_theme($existing, $type, $theme, $path) {
       'template' => 'templates/menu__user_menu', //Note that the template name defined here has no .tpl.php extension.
     ),
   );
+}
+
+function genix_image_style(&$variables){
+  // Determine the dimensions of the styled image.
+  $dimensions = array(
+    'width' => $variables['width'],
+    'height' => $variables['height'],
+  );
+
+  image_style_transform_dimensions($variables['style_name'], $dimensions);
+
+  $variables['width'] = $dimensions['width'];
+  $variables['height'] = $dimensions['height'];
+
+  $variables['attributes'] = array(
+    'class' => $variables['img-responsive'],
+  );
+
+  // Determine the url for the styled image.
+  $variables['path'] = image_style_url($variables['style_name'], $variables['path']);
+  return theme('image', $variables);
+
 }

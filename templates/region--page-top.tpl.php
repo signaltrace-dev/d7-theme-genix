@@ -15,8 +15,8 @@
                   <li id="skipNav" style="border-right:1px solid #eaeaea"><a href="#mainContent">Skip to Main Content</a> </li>
 									<li id="skipNav" style="border-right:1px solid #eaeaea"><a href="https://studentaffairs.uga.edu/site/content_page/accessibility">Accessibility</a> </li>
                   <li style="border-right:1px solid #eaeaea">
-                      <a href="http://uga.edu" class="tips" title="" target="_blank" data-original-title="Go to The University of Georgia main website">
-                          <span class="ugaLink" style="border:none;">THE UNIVERSITY OF GEORGIA</span>
+                      <a href="https://studentaffairs.uga.edu/" class="tips" title="" target="_blank" data-original-title="Go to The University of Georgia main website">
+                          <span class="ugaLink" style="border:none;">UGA STUDENT AFFAIRS</span>
                       </a>
                   </li>
 									<?php print render($user_menu); ?>
