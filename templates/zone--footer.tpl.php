@@ -15,7 +15,11 @@
                   <div class="col-md-3 col-sm-6">
                       <div class="footerWidget">
                           <ul class="list-unstyled borderList">
-                              <li><a href="http://enhanceuga.com/" target="_blank">Give</a></li>
+                              <li><a href="https://gail.uga.edu/give?id=1c76c78d-e009-4573-9578-f7d6db4782b5" target="_blank">Give</a></li>
+                              <li><a href="https://studentaffairs.uga.edu/site/content_page/policies-and-code-of-conduct">Policies & Code of Conduct</a></li>
+                              <li><a href="https://studentaffairs.uga.edu/site/directory_department/salt_cat">Student Affairs Staff Directory</a></li>
+                              <li><a href="https://studentaffairs.uga.edu/site/departments">Student Affairs Departments</a></li>
+                              <li><a href="https://studentaffairs.uga.edu/calendar/week">Student Affairs Events</a></li>
                               <li><a href="/staff-directory">Staff Directory</a></li>
                               <li><a href="https://testing.local/contact/Website-Comments">Website Comments</a></li>
                               <li><a href="https://studentcomplaints.uga.edu/" target="_blank">Submit a Complaint</a></li>
