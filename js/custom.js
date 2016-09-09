@@ -68,6 +68,9 @@ $(document).ready(function() {
 		Grid.init();
 	};
 
+	$('#block-system-main .content iframe').wrap("<div class='videoWrapper'></div>");
+	$('#block-system-main .content img').addClass('img-responsive');
+
 
    /*
     |--------------------------------------------------------------------------

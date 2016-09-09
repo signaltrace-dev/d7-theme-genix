@@ -43,8 +43,10 @@ drupal_add_css(drupal_get_path('theme', 'genix') . '/css/bootstrap.lightbox.min.
    drupal_add_js(drupal_get_path('theme', 'genix') . '/js/custom.js', array('group' => CSS_DEFAULT, 'every_page' => TRUE, 'scope' => 'footer'));
 
    $search_form = drupal_get_form('search_form');
-   $search_box = !empty($search_form) ? drupal_render($search_form) : NULL;
-   $vars['search_box'] = !empty($search_box) ? $search_box : NULL;
+   if(!empty($search_form)){
+     $search_box = drupal_render($search_form);
+     $vars['search_box'] = $search_box;
+   }
 }
 
 function genix_preprocess_zone(&$vars){
