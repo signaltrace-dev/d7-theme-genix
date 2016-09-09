@@ -2374,11 +2374,18 @@ footer h4 {
   .content .img-responsive{
     margin: 0 auto;
   }
+
+  .header1 .navbar-default .navbar-nav > li > a, .header1 .navbar-default .navbar-nav > li > .nolink {
+    color: #000;
+  }
 }
 
 @media (max-width: 1200px){
   #main_logo {
       max-width: 200px!important;
+  }
+  .header1 .navbar-default .navbar-nav > li > a, .header1 .navbar-default .navbar-nav > li > .nolink {
+    color: #000;
   }
 }
 
