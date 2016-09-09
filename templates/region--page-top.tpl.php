@@ -53,7 +53,9 @@
 					<nav class="navbar navbar-default scrollMenu" role="navigation">
                         <div id="searchbar" class="col-md-3" role="search" aria-labelledby="searchbar">
 <!--main search bar -->
-<?php print $search_box; ?>
+<?php if(!empty($search_box)) : ?>
+	<?php print $search_box; ?>
+<?php endif; ?>
 
 						</div>
 						<div class="navbar-header">

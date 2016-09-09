@@ -50,8 +50,11 @@ drupal_add_css(drupal_get_path('theme', 'genix') . '/css/custom.css', array('gro
    drupal_add_js(drupal_get_path('theme', 'genix') . '/js/js-plugin/camera/camera.min.js', array('group' => CSS_DEFAULT, 'every_page' => TRUE, 'scope' => 'footer'));
    drupal_add_js(drupal_get_path('theme', 'genix') . '/js/custom.js', array('group' => CSS_DEFAULT, 'every_page' => TRUE, 'scope' => 'footer'));
 
-   $search_box = drupal_render(drupal_get_form('search_form'));
-   $vars['search_box'] = $search_box;
+   $search_form = drupal_get_form('search_form');
+   if(!empty($search_form)){
+     $search_box = drupal_render($search_form);
+     $vars['search_box'] = $search_box;
+   }
 }
 
 function genix_preprocess_zone(&$vars){
